@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nino Jesus Aquino II W4B Final Project</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header-section">
+        <header>
+            <nav>
+                <a href="#"><img src="IMG/V2Phantom_Thieves_Logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section class="page-section">
+        <div class="content">
+            <div class="subheader">
+                <h1>We will take your distorted desires without fail.<br><span>From, the Phantom Thieves</span></h2>
+                <p>The Phantom Thieves of Hearts, also known simply as the Phantom Thieves, is a group of Persona Users in the Persona 5 series.</p>
+                <a href="https://megamitensei.fandom.com/wiki/Phantom_Thieves_of_Hearts" target="_blank">Learn More</a>
+            </div>
+            <div class="hero-box">
+                <img src="IMG/Phantom_Thief_Calling_Card.png" class="hero-img">
+            </div>
+        </div>
+       <ul class="thumbnails">
+           <li><img src="IMG/Phantom_Thief_Calling_Card.png" onclick="imgSelector('img/Phantom_Thief_Calling_Card.png')"></li>
+           <li><img src="IMG/PTG2.jpg" onclick="imgSelector('img/PTG2.jpg')"></li>
+           <li><img src="IMG/PTG3.jpg" onclick="imgSelector('img/PTG3.jpg')"></li>
+       </ul>
+    </section>
+   
+    <div class="footer-section">
+        <footer>
+            <div class="footer-column">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.526894208947!2d139.72900561510943!3d35.614735180209856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188a8a8e8f1d91%3A0xdbb3382366dc0348!2sSumitomo%20Fudosan%20Osaki%20Garden%20Tower%2C%201-ch%C5%8Dme-1%20Nishishinagawa%2C%20Shinagawa%20City%2C%20Tokyo%20141-0033%2C%20Japan!5e0!3m2!1sen!2sus!4v1629268835566!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p><span>Atlus CO., LTD.</span><br>
+                        Sumitomo Fudosan Osaki Garden Tower<br>
+                        1-1-1 Nishi-Shinagawa<br>
+                        Shinagawa-ku, Tokyo, 141-0033
+                        Japan</p>
+                    </div>
+            </div>
+            <div class="footer-column">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                        <form action="">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+    
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+    
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="25" rows="5"></textarea>
+                        
+                            <input type="submit" class="send-message" value="Send Message">
+                        </form>       
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-links">
+                    <ul>
+                        <h2>Quick Links</h2>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                    <div class="sm-links">
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/AtlusWest" target="_blank"><i class="icon-facebook-sign"></i></a>
+                            <a href="https://twitter.com/Atlus_West" target="_blank"><i class="icon-twitter"></i> </a>
+                            <a href="https://www.instagram.com/atlus_west/" target="_blank"><i class="icon-instagram"></i>></a>
+                            <a href="https://www.linkedin.com/company/atlus-u.s.a.-inc./"  target="_blank"><i class="icon-linkedin"></i>></a>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        function imgSelector(any) {
+            document.querySelector('.hero-img').src = any;
+        }
+    </script>
+</body>
+</html>
